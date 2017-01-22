@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A566861E344CCB00A7045E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A566851E344CCB00A7045E /* main.m */; };
+		18A566891E344CCB00A7045E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A566881E344CCB00A7045E /* AppDelegate.m */; };
+		18A5668C1E344CCB00A7045E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5668B1E344CCB00A7045E /* ViewController.m */; };
+		18A5668F1E344CCC00A7045E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A5668D1E344CCC00A7045E /* Main.storyboard */; };
+		18A566921E344CCC00A7045E /* TKJD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A566901E344CCC00A7045E /* TKJD.xcdatamodeld */; };
+		18A566941E344CCC00A7045E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A566931E344CCC00A7045E /* Assets.xcassets */; };
+		18A566971E344CCC00A7045E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A566951E344CCC00A7045E /* LaunchScreen.storyboard */; };
+		18A566A21E344CCD00A7045E /* TKJDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A566A11E344CCD00A7045E /* TKJDTests.m */; };
+		18A566AD1E344CCD00A7045E /* TKJDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A566AC1E344CCD00A7045E /* TKJDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A5669E1E344CCD00A7045E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A566791E344CCB00A7045E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A566801E344CCB00A7045E;
+			remoteInfo = TKJD;
+		};
+		18A566A91E344CCD00A7045E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A566791E344CCB00A7045E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A566801E344CCB00A7045E;
+			remoteInfo = TKJD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A566811E344CCB00A7045E /* TKJD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKJD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A566851E344CCB00A7045E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A566871E344CCB00A7045E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A566881E344CCB00A7045E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A5668A1E344CCB00A7045E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A5668B1E344CCB00A7045E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A5668E1E344CCC00A7045E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A566911E344CCC00A7045E /* TKJD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TKJD.xcdatamodel; sourceTree = "<group>"; };
+		18A566931E344CCC00A7045E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A566961E344CCC00A7045E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A566981E344CCC00A7045E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A5669D1E344CCD00A7045E /* TKJDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKJDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A566A11E344CCD00A7045E /* TKJDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKJDTests.m; sourceTree = "<group>"; };
+		18A566A31E344CCD00A7045E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A566A81E344CCD00A7045E /* TKJDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKJDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A566AC1E344CCD00A7045E /* TKJDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKJDUITests.m; sourceTree = "<group>"; };
+		18A566AE1E344CCD00A7045E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A5667E1E344CCB00A7045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A5669A1E344CCC00A7045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A566A51E344CCD00A7045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A566781E344CCB00A7045E = {
+			isa = PBXGroup;
+			children = (
+				18A566831E344CCB00A7045E /* TKJD */,
+				18A566A01E344CCD00A7045E /* TKJDTests */,
+				18A566AB1E344CCD00A7045E /* TKJDUITests */,
+				18A566821E344CCB00A7045E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A566821E344CCB00A7045E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A566811E344CCB00A7045E /* TKJD.app */,
+				18A5669D1E344CCD00A7045E /* TKJDTests.xctest */,
+				18A566A81E344CCD00A7045E /* TKJDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A566831E344CCB00A7045E /* TKJD */ = {
+			isa = PBXGroup;
+			children = (
+				18A566871E344CCB00A7045E /* AppDelegate.h */,
+				18A566881E344CCB00A7045E /* AppDelegate.m */,
+				18A5668A1E344CCB00A7045E /* ViewController.h */,
+				18A5668B1E344CCB00A7045E /* ViewController.m */,
+				18A5668D1E344CCC00A7045E /* Main.storyboard */,
+				18A566931E344CCC00A7045E /* Assets.xcassets */,
+				18A566951E344CCC00A7045E /* LaunchScreen.storyboard */,
+				18A566981E344CCC00A7045E /* Info.plist */,
+				18A566901E344CCC00A7045E /* TKJD.xcdatamodeld */,
+				18A566841E344CCB00A7045E /* Supporting Files */,
+			);
+			path = TKJD;
+			sourceTree = "<group>";
+		};
+		18A566841E344CCB00A7045E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A566851E344CCB00A7045E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A566A01E344CCD00A7045E /* TKJDTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A566A11E344CCD00A7045E /* TKJDTests.m */,
+				18A566A31E344CCD00A7045E /* Info.plist */,
+			);
+			path = TKJDTests;
+			sourceTree = "<group>";
+		};
+		18A566AB1E344CCD00A7045E /* TKJDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A566AC1E344CCD00A7045E /* TKJDUITests.m */,
+				18A566AE1E344CCD00A7045E /* Info.plist */,
+			);
+			path = TKJDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A566801E344CCB00A7045E /* TKJD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A566B11E344CCD00A7045E /* Build configuration list for PBXNativeTarget "TKJD" */;
+			buildPhases = (
+				18A5667D1E344CCB00A7045E /* Sources */,
+				18A5667E1E344CCB00A7045E /* Frameworks */,
+				18A5667F1E344CCB00A7045E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKJD;
+			productName = TKJD;
+			productReference = 18A566811E344CCB00A7045E /* TKJD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A5669C1E344CCC00A7045E /* TKJDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A566B41E344CCD00A7045E /* Build configuration list for PBXNativeTarget "TKJDTests" */;
+			buildPhases = (
+				18A566991E344CCC00A7045E /* Sources */,
+				18A5669A1E344CCC00A7045E /* Frameworks */,
+				18A5669B1E344CCC00A7045E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A5669F1E344CCD00A7045E /* PBXTargetDependency */,
+			);
+			name = TKJDTests;
+			productName = TKJDTests;
+			productReference = 18A5669D1E344CCD00A7045E /* TKJDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A566A71E344CCD00A7045E /* TKJDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A566B71E344CCD00A7045E /* Build configuration list for PBXNativeTarget "TKJDUITests" */;
+			buildPhases = (
+				18A566A41E344CCD00A7045E /* Sources */,
+				18A566A51E344CCD00A7045E /* Frameworks */,
+				18A566A61E344CCD00A7045E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A566AA1E344CCD00A7045E /* PBXTargetDependency */,
+			);
+			name = TKJDUITests;
+			productName = TKJDUITests;
+			productReference = 18A566A81E344CCD00A7045E /* TKJDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A566791E344CCB00A7045E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18A566801E344CCB00A7045E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					18A5669C1E344CCC00A7045E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A566801E344CCB00A7045E;
+					};
+					18A566A71E344CCD00A7045E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A566801E344CCB00A7045E;
+					};
+				};
+			};
+			buildConfigurationList = 18A5667C1E344CCB00A7045E /* Build configuration list for PBXProject "TKJD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A566781E344CCB00A7045E;
+			productRefGroup = 18A566821E344CCB00A7045E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A566801E344CCB00A7045E /* TKJD */,
+				18A5669C1E344CCC00A7045E /* TKJDTests */,
+				18A566A71E344CCD00A7045E /* TKJDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A5667F1E344CCB00A7045E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A566971E344CCC00A7045E /* LaunchScreen.storyboard in Resources */,
+				18A566941E344CCC00A7045E /* Assets.xcassets in Resources */,
+				18A5668F1E344CCC00A7045E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A5669B1E344CCC00A7045E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A566A61E344CCD00A7045E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A5667D1E344CCB00A7045E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A5668C1E344CCB00A7045E /* ViewController.m in Sources */,
+				18A566891E344CCB00A7045E /* AppDelegate.m in Sources */,
+				18A566921E344CCC00A7045E /* TKJD.xcdatamodeld in Sources */,
+				18A566861E344CCB00A7045E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A566991E344CCC00A7045E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A566A21E344CCD00A7045E /* TKJDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A566A41E344CCD00A7045E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A566AD1E344CCD00A7045E /* TKJDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A5669F1E344CCD00A7045E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A566801E344CCB00A7045E /* TKJD */;
+			targetProxy = 18A5669E1E344CCD00A7045E /* PBXContainerItemProxy */;
+		};
+		18A566AA1E344CCD00A7045E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A566801E344CCB00A7045E /* TKJD */;
+			targetProxy = 18A566A91E344CCD00A7045E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A5668D1E344CCC00A7045E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A5668E1E344CCC00A7045E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A566951E344CCC00A7045E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A566961E344CCC00A7045E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A566AF1E344CCD00A7045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A566B01E344CCD00A7045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A566B21E344CCD00A7045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKJD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youjiarui.TKJD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A566B31E344CCD00A7045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKJD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youjiarui.TKJD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A566B51E344CCD00A7045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKJDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youjiarui.TKJDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKJD.app/TKJD";
+			};
+			name = Debug;
+		};
+		18A566B61E344CCD00A7045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKJDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youjiarui.TKJDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKJD.app/TKJD";
+			};
+			name = Release;
+		};
+		18A566B81E344CCD00A7045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKJDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youjiarui.TKJDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKJD;
+			};
+			name = Debug;
+		};
+		18A566B91E344CCD00A7045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKJDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youjiarui.TKJDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKJD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A5667C1E344CCB00A7045E /* Build configuration list for PBXProject "TKJD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A566AF1E344CCD00A7045E /* Debug */,
+				18A566B01E344CCD00A7045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A566B11E344CCD00A7045E /* Build configuration list for PBXNativeTarget "TKJD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A566B21E344CCD00A7045E /* Debug */,
+				18A566B31E344CCD00A7045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A566B41E344CCD00A7045E /* Build configuration list for PBXNativeTarget "TKJDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A566B51E344CCD00A7045E /* Debug */,
+				18A566B61E344CCD00A7045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A566B71E344CCD00A7045E /* Build configuration list for PBXNativeTarget "TKJDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A566B81E344CCD00A7045E /* Debug */,
+				18A566B91E344CCD00A7045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18A566901E344CCC00A7045E /* TKJD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18A566911E344CCC00A7045E /* TKJD.xcdatamodel */,
+			);
+			currentVersion = 18A566911E344CCC00A7045E /* TKJD.xcdatamodel */;
+			path = TKJD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18A566791E344CCB00A7045E /* Project object */;
+}
