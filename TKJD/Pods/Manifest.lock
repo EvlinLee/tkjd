@@ -1,0 +1,33 @@
+PODS:
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MJRefresh (3.1.12)
+  - UMengUShare/Core (6.2.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.2.2)
+  - UMengUShare/Social/QQ (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.2.2):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - MagicalRecord (~> 2.3.2)
+  - MJRefresh (~> 3.1.12)
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+
+SPEC CHECKSUMS:
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  UMengUShare: fc0a98b8d5297632e82874318fd72a10d17da228
+
+PODFILE CHECKSUM: d63f1f4609daaa60349e56234ffd4b795ea8a5ae
+
+COCOAPODS: 1.2.0

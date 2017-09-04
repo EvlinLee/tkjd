@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Shop" representedClassName="Shop" syncable="YES">
+        <attribute name="class_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isChoose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quanhou" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sales" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shoujia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_shop" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yhLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yhPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yhql" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yhqsy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yj" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Shop" positionX="-63" positionY="-18" width="128" height="360"/>
+    </elements>
+</model>

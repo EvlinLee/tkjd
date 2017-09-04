@@ -1,0 +1,77 @@
+//
+//  PrefixHeader.pch
+//  TKJD
+//
+//  Created by apple on 2017/1/22.
+//  Copyright © 2017年 apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define WINDOWRECT_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define WINDOWRECT_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define AutoWEIGHT 375.0f
+#define AutoHEIGHT 667.0f
+#define HL  WINDOWRECT_HEIGHT/AutoHEIGHT
+#define WL  WINDOWRECT_WIDTH/AutoWEIGHT
+//颜色
+#define RGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//机型
+#define IPHONE4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IPHONE5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone6_6s [[UIScreen mainScreen] bounds].size.width == 375.0f && [[UIScreen mainScreen] bounds].size.height == 667.0f
+// 判断是否为iPhone 6Plus/6sPlus
+#define iPhone6Plus_6sPlus [[UIScreen mainScreen] bounds].size.width == 414.0f && [[UIScreen mainScreen] bounds].size.height == 736.0f
+
+#define YBMAX(a,b,c) (a>b?(a>c?a:c):(b>c?b:c))
+
+#define LRLog(...) printf("%s: 第%d行 %s\n",__func__,__LINE__,[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+
+#define API_URL @"http://api.tkjidi.com/index.php?m=App"
+
+#define New_Url @"http://wxapi.tkjidi.com"
+
+#define defaults [NSUserDefaults standardUserDefaults]
+
+#import <MagicalRecord/MagicalRecord.h>
+#import "Shop+CoreDataClass.h"
+#import "AFNetworking.h"
+#import "MHNetwrok.h"
+#import "NSString+MD5.h"
+#import "Customer.h"
+#import "SDAutoLayout.h"
+#import "UIImageView+WebCache.h"
+#import "Toast+UIView.h"
+//#import "SVProgressHUD.h"
+#import <WebKit/WebKit.h>
+#import "MJRefresh.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "SDCycleScrollView.h"
+#import <UMSocialCore/UMSocialCore.h>
+#import <UShareUI/UShareUI.h>
+#import "MBProgressHUD.h"
+
+#import "ShopModel.h"
+#import "PIDViewController.h"
+#import "DetailsViewController.h"
+#import "SChainViewController.h"
+
+#import "GrantViewController.h"
+
+#import "JSONKit.h"
+#import "ZCYTabBarController.h"
+#import <Social/Social.h>
+//#import <UShareUI/UMSocialShareUIConfig.h>
+
+
+#endif /* PrefixHeader_pch */
